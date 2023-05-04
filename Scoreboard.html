@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoreboard</title>
+    <link rel="stylesheet" href="Stylesheet/scoreboard.css">
+</head>
+<body>
+    <div class="wrapper-scoreboard">
+    <div class="scoreboard">
+        <div class="scoreboard-el" id="home-el">
+            <h1>HOME</h1>
+            <p class="score-counter" id="home-score">0</p>
+            <div class="score-wrapper">
+                <button class="score-points" id="score+1-home" onclick="score1Home()">+1</button>
+                <button class="score-points" id="score+2-home" onclick="score2Home()">+2</button>
+                <button class="score-points" id="score+3-home" onclick="score3Home()">+3</button>
+            </div>
+        </div>
+        <div class="scoreboard-el" id="guest-el">
+            <h1>GUEST</h1>
+            <p class="score-counter" id="guest-score">0</p>
+            <div class="score-wrapper">
+                <button class="score-points" id="score+1-guest" onclick="score1Guest()">+1</button>
+                <button class="score-points" id="score+2-guest" onclick="score2Guest()">+2</button>
+                <button class="score-points" id="score+3-guest" onclick="score3Guest()">+3</button>
+            </div>
+        </div>
+       
+    </div>
+    <div id="delete">
+        <button id="delete-btn" onclick="deleteScore()">DELETE</button></div>
+</div>
+    <script src="JS/scorebard.js"></script>
+</body>
+</html>

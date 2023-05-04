@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Cursed-Timer;
+    src: url(../Fonts/CursedTimer.ttf);
+}
+body{
+    height: 100vh;
+    
+}
+.wrapper-scoreboard{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    padding-bottom: 30px;
+
+    
+
+}
+#delete-btn{
+    background: rgb(196, 0, 0);
+    color: wheat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-shadow: 0 0 3px black;
+
+    padding: 10px 20px;
+    border: 3px solid #9AABD8;
+    border-radius: 6px;
+    
+}
+
+.scoreboard{
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    background: #1B244A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #EEEEEE;
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+.scoreboard-el{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+.score-counter{
+    width: 90px;
+    height: 90px;
+    border-radius: 3px;
+    background: rgb(0, 0, 0);
+    color: red;
+    font-family: Cursed-Timer;
+    font-size: 6em;
+    
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.score-wrapper{
+    display: flex;
+    
+}
+.score-points{
+    border: 2px solid  #9AABD8;
+    color: #9AABD8;
+    background: inherit;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+
+    margin: auto 3px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
